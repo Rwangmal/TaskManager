@@ -1,4 +1,4 @@
-import '../models/TaskModel.dart';
+import '../models/task_model.dart';
 
 abstract class TaskRemoteDataSource {
   Future<List<TaskModel>> getTasks(String projectId);

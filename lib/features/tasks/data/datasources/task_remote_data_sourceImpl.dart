@@ -2,9 +2,9 @@ import 'package:dio/dio.dart';
 
 import '../../../../core/network/api_constants.dart';
 import '../../../../core/network/dio_client.dart';
-import '../models/TaskModel.dart';
+import '../models/task_model.dart';
 
-import 'TaskRemoteDataSource.dart';
+import 'task_remote_data_source.dart';
 
 
 class TaskRemoteDataSourceImpl implements TaskRemoteDataSource {
